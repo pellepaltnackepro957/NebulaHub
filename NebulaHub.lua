@@ -1,5 +1,5 @@
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
-function hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
+function cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC(data) m=string.sub(data, 0, 55) data=data:gsub(m,'')
 
 data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) if (x == '=') then return '' end local r,f='',(b:find(x)-1) for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end return r; end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) if (#x ~= 8) then return '' end local c=0 for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end return string.char(c) end)) end
 
@@ -9,29 +9,210 @@ data = string.gsub(data, '[^'..b..'=]', '') return (data:gsub('.', function(x) i
 
 ------------------------ Nebula Hub - Copyright ------------------------
 
-local Rayfield = loadstring(game:HttpGet(hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('PYKTdaXCnjlpwmHtJAXSxMizFaTwXjsggrgFlPqIczmhQutASoexmVNaHR0cHM6Ly9zaXJpdXMubWVudS9yYXlmaWVsZA==')))()
+local Rayfield = loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('CgbNrJLwKbGhjtOIYajCObmKWBdYknvPxsqNJrQMzPaDxcvoUTQSqovaHR0cHM6Ly9zaXJpdXMubWVudS9yYXlmaWVsZA==')))()
 
 -- Window --
 local Window = Rayfield:CreateWindow({
-    Name = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('zUOnOoRIiHSUSzOrUlNHfSErjhJSSfKgyGFPCXdGOQepNzCkUJTRHlxTmVidWxhIEh1Yg=='),
-    LoadingTitle = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('xzapQfTfMDyFRKqDDYkqXAhuqCcaAVuthoJgvcGvrDXCRkwRStEdeVDTG9hZGluZyBOZWJ1bGEgSHViLi4u'),
-    LoadingSubtitle = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('qReHUOYglUxWwvOKtErjQqdVDmLCQuHjNpIbHmcWOsYvvldfwMXaHKMQnkgRGF2aWQ='),
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('LvwreljEYUDzcEUbigzmPFpgrIgalzqiehPkngcZzsfDXJmuRomuigqTmVidWxhIEh1Yg=='),
+    LoadingTitle = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('GnkBGokoJebYCaMQoChyWqPaYIFBvDnBjdopRYBspQEirASnrxIBbZUTG9hZGluZyBOZWJ1bGEgSHViLi4u'),
+    LoadingSubtitle = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('QsNKBuHAbgqIgvloamMmClMYjGKkjNqesIcWHKDOBePFvvjWYPrleFJQnkgRGF2aWQ='),
     ConfigurationSaving = {
        Enabled = true,
        FolderName = NebulaHub, -- Create a custom folder for your hub/game
-       FileName = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('LVOvxEqdAAooQmMqLlrQAUjLpmbuTDzqqEkkuBlXjVDEmnJBVJrmLPYQ29uZmln')
+       FileName = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('cegdROgESyKOSLdcFChlSgIYYhjDCPxdoCxeFXtHnfdGyhJaaLXILdtQ29uZmln')
     },
     Discord = {
        Enabled = true,
-       Invite = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('hoTIkuMriazTXhCqtAQwDxQxkhxNiTxZUwNeieqQzThZrtDXJDIoFCLZGJ2OXBlSHlnYw=='), -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+       Invite = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('crCYrxTpeNAcXKZcUTSGtuKIUWjQWZhdLrbgoTrbqfbIoAcxtuqqluMZGJ2OXBlSHlnYw=='), -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
     },
     KeySystem = true, -- Set this to true to use our key system
     KeySettings = {
-       Title = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('DfztCpCVPEQLcqEgRxyQamGiySLoqhApERphLtWUYBZzyVLxemvOqyTTmVidWxhIEh1YiBLZXk='),
-       Subtitle = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('TYVKjQlsjkDBSrNKvRWlovMuAIFpQNuZeuaypqGPEFjvCcGzVEWaqrXS2V5IFN5c3RlbQ=='),
-       Note = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('zeqoLYDLgwazlFMWaCuscEDwSjTDWTXGduMmvNVWcnnJJdbLZezCMOhSm9pbiBvdXIgZGlzY29yZCBzZXJ2ZXIsIGFuZCBnbyB0byB0aGUga2V5IGNoYW5uZWwgdG8gZ2V0IHRoZSBrZXku'),
-       FileName = hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('XmqNMPFdrLsAkPIBGkUchpdpkQjxEelBthODAHzNXlyAjYfChukNPNLbmVidWxhaHVibGF0ZXN0a2V5'), -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-       SaveKey = false, -- The userhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('HkvHVPEIVDHUutKrLDaxmSNaUoOtRsGhNJucHhGGGFbIBwpcTdiFHQscyBrZXkgd2lsbCBiZSBzYXZlZCwgYnV0IGlmIHlvdSBjaGFuZ2UgdGhlIGtleSwgdGhleSB3aWxsIGJlIHVuYWJsZSB0byB1c2UgeW91ciBzY3JpcHQNCiAgICAgICBHcmFiS2V5RnJvbVNpdGUgPSBmYWxzZSwgLS0gSWYgdGhpcyBpcyB0cnVlLCBzZXQgS2V5IGJlbG93IHRvIHRoZSBSQVcgc2l0ZSB5b3Ugd291bGQgbGlrZSBSYXlmaWVsZCB0byBnZXQgdGhlIGtleSBmcm9tDQogICAgICAgS2V5ID0gew==')NebulaHubOnTop943hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('xhGRLbfLyjYgIQbXnZgqJhMunNYtfZNEgbOvlojtsKiaYGvsSqasWrCfSAtLSBMaXN0IG9mIGtleXMgdGhhdCB3aWxsIGJlIGFjY2VwdGVkIGJ5IHRoZSBzeXN0ZW0sIGNhbiBiZSBSQVcgZmlsZSBsaW5rcyAocGFzdGViaW4sIGdpdGh1YiBldGMpIG9yIHNpbXBsZSBzdHJpbmdzICg=')hellohlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('VlxBgpLxnCSFdtAPjTuQOllTCsLrnKqYMdIDguRdTBykpkvVwlHwmhQLA==')key22hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('UbdAwLCFvExbRxmngkxrJjLatRuxaBRfMQxJbxgHfdQJtLpNzyZVUjDKQ0KICAgIH0NCiB9KQ0KIC0tIEVuZCBvZiB3aW5kb3cgLS0NCg0KIC0tIFRhYiAtLQ0KIGxvY2FsIFNjcmlwdHMgPSBXaW5kb3c6Q3JlYXRlVGFiKA==')ScriptshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('sIDLUNvGNzGPtiduOmAXuXTGvLSBdUfwfCcXvpslyCibYeKhsNPCmvkLCA0NDgzMzQ1OTk4KQ0KIGxvY2FsIENyZWRpdHMgPSBXaW5kb3c6Q3JlYXRlVGFiKA==')CreditshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('inbInfNvqbZWdLDjHRKOizaxLYbJjtRGNWOYEcrzpWNYAuCfRcCkmSfLCA0NDgzMzQ1OTk4KQ0KDQogLS0gRW5kIG9mIHRhYiAtLQ0KDQogLS0gU2VjdGlvbiAtLQ0KIGxvY2FsIFNlY3Rpb24gPSBTY3JpcHRzOkNyZWF0ZVNlY3Rpb24o')See all of our scripts belowhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('zPzggIaHpyIfsFIZCHCHxWBwmlSwNPKxLVhcsyHMnHzRXRaomCrgsDfKQ0KDQogLS0gRW5kIG9mIHNlY3Rpb24gLS0NCg0KIC0tIEV4dHJhIEZ1bmN0aW9ucyAtLQ0KDQogUmF5ZmllbGQ6Tm90aWZ5KHsNCiAgICBUaXRsZSA9IA==')Nebula HubhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('AMFPiRFogKnmImTFtsjgwHSrYXkgIlNEoSihKWGrmIUyCQZQRJTFPOJLA0KICAgIENvbnRlbnQgPSA=')Thank you for using Nebula Hub, it means alot to ushlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('LOIvyxsrAJPIcSyIloiHcGOydqYOlyLxPhHsydecaukBTOfcauYCUvWLA0KICAgIER1cmF0aW9uID0gMTAsDQogICAgSW1hZ2UgPSA0NDgzMzYyNDU4LA0KICAgIEFjdGlvbnMgPSB7IC0tIE5vdGlmaWNhdGlvbiBCdXR0b25zDQogICAgICAgSWdub3JlID0gew0KICAgICAgICAgIE5hbWUgPSA=')OkayhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('BIqKzUUOwgKmDqHJkiCEaPIYnKtOnkVXzQBSLQxuDqmIPNjNgLfJUPdLA0KICAgICAgICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICAgIHByaW50KA==')You pressed the okay buttonhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('pMDPAAIQvjrCRRwMaoJndxBdtLykumgqgCydDQeFBQKMHtzEPXMQawkKQ0KICAgICAgIGVuZA0KICAgIH0sDQogfSwNCiB9KQ0KIA0KIC0tIEVuZCBvZiBleHRyYSBmdW5jdGlvbnMgLS0NCg0KIC0tIENyZWRpdHMgUGFnZSAtLQ0KDQogbG9jYWwgUGFyYWdyYXBoID0gQ3JlZGl0czpDcmVhdGVQYXJhZ3JhcGgoe1RpdGxlID0g')CopyrighthlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('cSfrJhjCUnIeBRepKihUrpPbfQBcMJyiMbRGhttHFcgLfpBZBNeVnPKLCBDb250ZW50ID0g')MIT License: Copyright (c) 2024 David (pellepaltnackepro957). Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the Software), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('wQnQxjefjZtPbddmmfrCDagAqIAIpCQkBZexHpbBkzewWfRNFqrtipOfSkNCg0KIGxvY2FsIFBhcmFncmFwaCA9IENyZWRpdHM6Q3JlYXRlUGFyYWdyYXBoKHtUaXRsZSA9IA==')Copyright noticehlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('mPjvTFJFiKBFPFrGyyUOslhamkaLGjRSYMWroUhMInHEjkLLZMgCIvlLCBDb250ZW50ID0g')THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM.hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('OogxfyCGMFKLCmqwjUtjEdIFmbdvXKMTuLGTAtPDgbCZdrJDhbnQudZfSkNCg0KIGxvY2FsIExhYmVsID0gQ3JlZGl0czpDcmVhdGVMYWJlbCg=')Team: @unknowngamer123 and @warg.sehlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('aiFQzChudQupmuDBJivRTcBNKgkwMQmmjoUnuNcbAtNaoRIFmwgwMjtKQ0KDQogbG9jYWwgTGFiZWwgPSBDcmVkaXRzOkNyZWF0ZUxhYmVsKA==')Hub made by DavidhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('itNzPxBxncOhIZTqGQhTyttJZczfRARZtsaQrBnbDlyokGrltQAxYlzKQ0KDQogbG9jYWwgTGFiZWwgPSBDcmVkaXRzOkNyZWF0ZUxhYmVsKA==')This is the best scripts hubhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('fBxedXxAEryHHxJYGVVrUhOTTpdjQgNZzyKPkQbpHhztKkXgXuzrqXZKQ0KDQogLS0gRW5kIG9mIGNyZWRpdHMgcGFnZSAtLQ0KDQogLS0gQnV0dG9ucyAtLQ0KIGxvY2FsIEJ1dHRvbiA9IENyZWRpdHM6Q3JlYXRlQnV0dG9uKHsNCiAgICBOYW1lID0g')Close HubhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('yNAfsaSOgMKiYMQDPJdOGZHZEddZtIfHqVxAAfpSLQbJQaeHnWrbNvjLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBSYXlmaWVsZDpEZXN0cm95KCkNCiAgICBlbmQsDQogfSkNCg0KIGxvY2FsIEJ1dHRvbiA9IFNjcmlwdHM6Q3JlYXRlQnV0dG9uKHsNCiAgICBOYW1lID0g')Frontlines ESP & Hitbox expanderhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('UVMuSzSBYdfeaDxavrZXVuVGicOaXoKgGxcBLkNJrzWqFRcWfdxBLFXLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/HYHaZ5TQhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('tefnTLEhHXiJELSMHFjLoqKGqMAPPvEyKBmKgSneILegDJyQfACWuRoKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Blade BallhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('HChJdGvUueDtcUgpniVtWcHXBxpXadzRzdYAtlZujzqIxfwraAgSunnLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/autoparry.luahlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('BPwJMdjjdyZEGkDFogBzHxlvtwmejrEnKDiFkQBtjSlSAxIVwzbOhTmKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Blox FruithlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('NhmNPomZQUtJnmDalfkbLSzklMYyimerruFduNaKxBHCBvWiZpqxxEWLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/1st-Mars/Annie/main/1st.luahlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('SPWWavSoMbPKJRhFHIvTTFSThSKZgeiIwHEWtZtDlSBFyEhPQtrEBblKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')A dusty triphlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('cHrFvbWLoDwXKtiaPGYLgvsPKUlsjWcGVidEbnYsnPNreoYWDjmbJVoLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/artemy133563/Utilities/main/ADustyTriphlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('tPSrBgHQczafqCsZLJhbbOKcdNwLxnJhzwNHfBWhLFwHaaxvjmdKFlOLCB0cnVlKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Nameless AdminhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('QSbBIpFJaozHaAqTTabESgsJbZqrjoguDtjzbEliHiehcDHaavXMrPiLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/SourcehlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('MBKcOMZlrjAfMhSbBqORaqKlzAPucWXScEdYTZbzhoUSrUEzgAQfVriKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Infinity YieldhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('BUzpWNkyXuZSNWFtIABwwAlMyGOHSNqMtWgfxkNQgjNpWhXsCAObEmULA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/ELDDpAyAhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('yExHkJcnDaCOoLqJdziENJjLhfQLmfvXnjAdlizimAdpqbZhErevnmJKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Universal ESPhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('YNJcmvPIGofikcsXzbpQHbfBEZubNIsbRtfoFWgnxbaaspRPTVFqHTgLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/pellepaltnackepro957/moonbot/main/esp.luahlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('dwsEkxKTcEkyBYlYSbemujGnAmEMsegfoZgcasrYiYDPDWlNHlezHNvKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Universal AimbothlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('wnBknzWJKfrBaZdTxyzJajTTJPuIOQxcWYZIbHizRwAAmkSjXPYBhytLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/xZ03GFqzhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('BUFXfuiYAFTDzaDDtmXgDcwsreIhGUGmoYXdniqYXLxcWYBRSHaVsmhKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Arsenal KeylesshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('qIAjLrZchzAzxyBzRDOSWPFeDXKdcfJREyHcYMohtGhUcxgTLlCWLVNLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.GhubhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('blhIXRWjypraCHvdCTylBEAhwcYjXQhexHaAhPYPmXBHaduUKHKEnWkKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Arsenal Key: mTAgLLFQJazwRWGhhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('hTitwbwMwyElMrMutEhrZbDZxFTzGuXYHdkkUMrTQYeOTEeKcqjZUoRLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/Amenteso/robloxscripts/main/Key.luahlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('dJVapDdVyCrPYnnBSJCINwBZNojarBcebxuOrSTwWvMjxYCiREtYdBwLHRydWUpKSgpDQogICAgZW5kLA0KIH0pDQoNCiBsb2NhbCBCdXR0b24gPSBTY3JpcHRzOkNyZWF0ZUJ1dHRvbih7DQogICAgTmFtZSA9IA==')Pet Sim 99hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('daQCArIRHQPeKXQSUPXvtUXVbsbrzWzyaxMUjFwzlNYdwAKoEnvytqmLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/HGIOD/AquaFlowX/main/FlowXhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('SunxHEKdAsoClEQOSBuKnRhOuporNHmzMybtcMsJQbDGrfSyMjKcccQKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')KathlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('AkSnBqBArdrUsfDcpLRCXiAfTzNNYLzQLWosPQddJNaWCGxuHYzskdTLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/6G9GfqjChlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('ccAblINMXbLUHOILqdrXitXyCYOwLqIJjbAYTjRkeSvVtCHaEQivqtKKSx0cnVlKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Ninja LegendshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('iZlvoVucHXhiLGqnwyuQCaRwUyXuJRpdeqLIIKzoGHbmSovoabCSYVdLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://raw.githubusercontent.com/scriptpastebin/raw/main/1hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('ObZkSEpjlVdknASzzSBLPgSenRpwovtHlWsblFfRPBltlthbfxpqXGBKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')DoorshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('DqtzhHFAlgtfkBjcFHekbHONJjFYKbcVVsrQogqpGuAZPrjegTDJSDMLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/R8QMbhzvhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('iJplXDRIoLwGOPqVzcQGRmsPcRyPGZlGAFnfjVEugRfiKbYjnbDwJBuKSkpKCkNCiAgICBlbmQsDQogfSkNCg0KIGxvY2FsIEJ1dHRvbiA9IFNjcmlwdHM6Q3JlYXRlQnV0dG9uKHsNCiAgICBOYW1lID0g')Prison LifehlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('IUBwflbYqNRwFcZDffRLXHSGYzjVbaahHfmpedENDVJnmxWNjJkRnnmLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://pastebin.com/raw/KA7xFcbLhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('aNsRoNBrGKZLCLuHtFKJLxmLXqsBnXnjYdZvfXAIysleBRYsMICFCxcKSx0cnVlKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Slap BattleshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('WVHXNgKgkjZJvsGklpXzrgBHkFSXWXqNvkUkZELBrckFImGxCDbYyWQLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCgo')https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20BattleshlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('GzcoGeTMPNMONspeyjjJYqXkMyzDiXJtczpxvgxSCFDHIAVHJpMMGmNKSkpKCkNCiAgICBlbmQsDQogfSkNCg0KIGxvY2FsIEJ1dHRvbiA9IFNjcmlwdHM6Q3JlYXRlQnV0dG9uKHsNCiAgICBOYW1lID0g')Race ClickerhlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('alkuAPbzABfCoHfImIQqaYmTlqBdjQPLFJoeEWSdlqhYclMEdKSHAPyLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/HecAyid9hlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('AuZXDwInDxVzTctBlEAhJhMblQEIPpylSbmbNVZGpxfLLiviluXSzRuKSkoKQ0KICAgIGVuZCwNCiB9KQ0KDQogbG9jYWwgQnV0dG9uID0gU2NyaXB0czpDcmVhdGVCdXR0b24oew0KICAgIE5hbWUgPSA=')Troll ScripthlelErUXjkxFNksayIuGDCigIlSYPkRHcNlcmegJf('teFztmQXRpesbtCBwwqVkdCXsORSKOLLIVfpVjRnnoMFvuZjlhsqCuBLA0KICAgIENhbGxiYWNrID0gZnVuY3Rpb24oKQ0KICAgICAgICBsb2Fkc3RyaW5nKGdhbWU6SHR0cEdldCg=')https://pastebin.com/raw/zqyDSUWX'))()
+       Title = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('nRcDMCZiySgTonpTrTPybqcfcBFdDgqHnlIkAwOEFUSeMZSKXkooBBaTmVidWxhIEh1YiBLZXk='),
+       Subtitle = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('uKDfIBMhahHqMyFjzEFsyNdfOeBCKFLvDitbXFsUBGqfmZAfWkYBPliS2V5IFN5c3RlbQ=='),
+       Note = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('ydRuZTqpDBXDJRthhYlCVqvoAathVTvEjiblxyQIZzQSADvfJuIwGCKSm9pbiBvdXIgZGlzY29yZCBzZXJ2ZXIsIGFuZCBnbyB0byB0aGUga2V5IGNoYW5uZWwgdG8gZ2V0IHRoZSBrZXku'),
+       FileName = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('kOZAXBPgDsxMGowMUYCJrOMzlDeNLTUcMhVphHBiKXRhZLKUAktAbUYbmVidWxhaHVibGF0ZXN0a2V5'),
+       SaveKey = false,
+       GrabKeyFromSite = false,
+       Key = {cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('EgVUkhutTZXoSsqTApASrvlfYQxYGaDuEDzJbwjiLKPiSvazhFhukzITmVidWxhSHViT25Ub3A5NDM=')}
+    }
+ })
+ -- End of window --
+
+ -- Tab --
+ local Scripts = Window:CreateTab(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('fZYKYvLltiqlIJCPuGgFILCAsEXibuKsgnAJXMCWBOOuFwlzOmHVQaMU2NyaXB0cw=='), 4483345998)
+ local Credits = Window:CreateTab(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('HRkFLiJSfWtiUaUApyCNEjdXJKHcxWQXwqmCUfPhZXzPaCymfCsSxRZQ3JlZGl0cw=='), 4483345998)
+
+ -- End of tab --
+
+ -- Section --
+ local Section = Scripts:CreateSection(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('DQiPXiDAQItUqElVqCgRHvLDIycLbcbstNQKbNCAUdocvBRkCLwXEHhU2VlIGFsbCBvZiBvdXIgc2NyaXB0cyBiZWxvdw=='))
+
+ -- End of section --
+
+ -- Extra Functions --
+
+ Rayfield:Notify({
+    Title = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('yCBNErwgTcygQcWFOtlgtmQvXLbqMZppEstselDjERoVWKSoKlnxquVTmVidWxhIEh1Yg=='),
+    Content = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('SZHdwVTTeJzuoSFkPpvJkHVBZXcoXQhgvoKRKNoivOlTGNWsKAncqwwVGhhbmsgeW91IGZvciB1c2luZyBOZWJ1bGEgSHViLCBpdCBtZWFucyBhbG90IHRvIHVz'),
+    Duration = 10,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('RpTUHeyzZOlfUCymoVNNjIubNcdVTGnZbhdAbhsRwuGCWnmncUntCsXT2theQ=='),
+          Callback = function()
+          print(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('jlVUPywyNpKlyISIAlfQNGYLrmfjwsgspKpceVtjTvyTsMkoCttQierWW91IHByZXNzZWQgdGhlIG9rYXkgYnV0dG9u'))
+       end
+    },
+ },
+ })
+ 
+ -- End of extra functions --
+
+ -- Credits Page --
+
+ local Paragraph = Credits:CreateParagraph({Title = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('QqJpnearKOUVgyOBjRcqFkDZmdMHNsavomVxfaFysbIwnaCxzmopHErQ29weXJpZ2h0'), Content = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('yApZhWwARtfgpVhXuqgsqXFrECmTaCrwnGzuJhivGBiJjtfDBXQnmgUTUlUIExpY2Vuc2U6IENvcHlyaWdodCAoYykgMjAyNCBEYXZpZCAocGVsbGVwYWx0bmFja2Vwcm85NTcpLiBQZXJtaXNzaW9uIGlzIGhlcmVieSBncmFudGVkLCBmcmVlIG9mIGNoYXJnZSwgdG8gYW55IHBlcnNvbiBvYnRhaW5pbmcgYSBjb3B5IG9mIHRoaXMgc29mdHdhcmUgYW5kIGFzc29jaWF0ZWQgZG9jdW1lbnRhdGlvbiBmaWxlcyAodGhlIFNvZnR3YXJlKSwgdG8gZGVhbCBpbiB0aGUgU29mdHdhcmUgd2l0aG91dCByZXN0cmljdGlvbiwgaW5jbHVkaW5nIHdpdGhvdXQgbGltaXRhdGlvbiB0aGUgcmlnaHRzIHRvIHVzZSwgY29weSwgbW9kaWZ5LCBtZXJnZSwgcHVibGlzaCwgZGlzdHJpYnV0ZSwgc3VibGljZW5zZSwgYW5kL29yIHNlbGwgY29waWVzIG9mIHRoZSBTb2Z0d2FyZSwgYW5kIHRvIHBlcm1pdCBwZXJzb25zIHRvIHdob20gdGhlIFNvZnR3YXJlIGlzIGZ1cm5pc2hlZCB0byBkbyBzby4=')})
+
+ local Paragraph = Credits:CreateParagraph({Title = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('IQKqiqDASwQUNJSlALbEMfMPojUnvuNsiWiNChveHHYKxdkBnmgZCAyQ29weXJpZ2h0IG5vdGljZQ=='), Content = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('dbiGaQkjVbXkKKaRABYdQNGoBGXUcwdUMPyrzZRaYKGgNdBepktVtqvVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEIEFTIElTLCBXSVRIT1VUIFdBUlJBTlRZIE9GIEFOWSBLSU5ELCBFWFBSRVNTIE9SIElNUExJRUQsIElOQ0xVRElORyBCVVQgTk9UIExJTUlURUQgVE8gVEhFIFdBUlJBTlRJRVMgT0YgTUVSQ0hBTlRBQklMSVRZLCBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRSBBTkQgTk9OSU5GUklOR0VNRU5ULiBJTiBOTyBFVkVOVCBTSEFMTCBUSEUgQVVUSE9SUyBPUiBDT1BZUklHSFQgSE9MREVSUyBCRSBMSUFCTEUgRk9SIEFOWSBDTEFJTSwgREFNQUdFUyBPUiBPVEhFUiBMSUFCSUxJVFksIFdIRVRIRVIgSU4gQU4gQUNUSU9OIE9GIENPTlRSQUNULCBUT1JUIE9SIE9USEVSV0lTRSwgQVJJU0lORyBGUk9NLg==')})
+
+ local Label = Credits:CreateLabel(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('QrVdfvjdNKuBEWXcHcQQxkIraQvkarnuzNxvCArLFiREgCmNmTRROXbVGVhbTogQHVua25vd25nYW1lcjEyMyBhbmQgQHdhcmcuc2U='))
+
+ local Label = Credits:CreateLabel(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('WnQtPPPOGGNouSPxHaQQaJnzmTjKCtVcmYDQklfXRHCZufVZeZgrTYuSHViIG1hZGUgYnkgRGF2aWQ='))
+
+ local Label = Credits:CreateLabel(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('LTcYErUfbxLEPNYZQDWwPTXuAtXTOrSwelYCyvirCoiRPMxraHiwwCmVGhpcyBpcyB0aGUgYmVzdCBzY3JpcHRzIGh1Yg=='))
+
+ -- End of credits page --
+
+ -- Buttons --
+ local Button = Credits:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('ewoGRshwIsbBdCCLSKTwJPrKFdkOMdrKbrBMCDnHipmXZKUjLxuGfFcQ2xvc2UgSHVi'),
+    Callback = function()
+        Rayfield:Destroy()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('bwhddEFRvqRNlCHcnvQUMeLBoxkUVTTfixQbOMXyzUYEiOooUDTDVxzRnJvbnRsaW5lcyBFU1AgJiBIaXRib3ggZXhwYW5kZXI='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('pQoDhiTAGAyMbHeweKLGuIfblPDgjhCLykyZPdVWgyFxNGkagglvWbSaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0hZSGFaNVRR')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('dQbSqsJErDRWHyxJqhntGMnreqwzCzvurIlabufANBAWgdqUrLvVAUzQmxhZGUgQmFsbA=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('koDMbNHVeiNaDPvqsISwxZEEnDUeTyiexzpEQSMqTHMRxUgUFzAWLzSaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0ZGSjEvUm9ibG94LUV4cGxvaXRzL21haW4vc2NyaXB0cy9hdXRvcGFycnkubHVh')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('beCwDYAurMMLmfeofiUqCCJcHjFjDfUGtzpuMQlULCujwzuDCJFuDkGQmxveCBGcnVpdA=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('jacIuWHdoYSlCykRbQkPeTRYRowirYRaUBdwpoByEKgrmNFrkWjMthsaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzFzdC1NYXJzL0FubmllL21haW4vMXN0Lmx1YQ==')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('OMTcwtyynWFyiuxYwmXHxtwbVpOPWOfLOGXuRZJvmLQFQsKUeUMxCSWQSBkdXN0eSB0cmlw'),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('eshDFJOxGghQAxVJbXsZCJkMsJxWUhWEAVAkJUEGdETalRmfOELeZkmaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2FydGVteTEzMzU2My9VdGlsaXRpZXMvbWFpbi9BRHVzdHlUcmlw'), true))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('yoxwKFFllVxqFTNwTamsEKIqShLIsfmSkqpMjDzhxAMYZkMCGoeWymWTmFtZWxlc3MgQWRtaW4='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('XQLXMNQzMnYmOvksspijcDcyXDxniPqUsYjToEnFebcZyDdlNMuYERVaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0ZpbHRlcmluZ0VuYWJsZWQvTmFtZWxlc3NBZG1pbi9tYWluL1NvdXJjZQ==')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('ZFNRyiTeXuJRgWwKTUmmNMlTIstpzzbgQrVNVCpUzRBnzqAhWAqmeSkSW5maW5pdHkgWWllbGQ='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('QMiFlidEaiWfqaZPtBCuorqDImEBmkgfGHxRpWzCZYbLnEJQBmGGrMdaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0VMRERwQXlB')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('jbRThIfVeMRLbomElJYgIzGrKYSjjNBEcVxaEGCRUCvWDyGdWdkVrJSVW5pdmVyc2FsIEVTUA=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('kQDcsEErUtAQsVpOMcvkxSfuxTFzIQvxrYEItEVvvPUAWOeoZVjAKqqaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3BlbGxlcGFsdG5hY2tlcHJvOTU3L21vb25ib3QvbWFpbi9lc3AubHVh')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('vgWLPFLhIMIDttfZPBUBhDfbnSLOjDrFRsigjmlBXBYeQeBOMnfOMnDVW5pdmVyc2FsIEFpbWJvdA=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('gbpjmrgvvhvVbBrpRDaPuUasVQSabCKChfWAnmOXAcfaoFfxdlahcvKaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3haMDNHRnF6')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('NeEGMTRCDPyWQVJckCmJcgdYwLhfCbZrYpHiLkQJNsdkOzHIlJZJbjAQXJzZW5hbCBLZXlsZXNz'),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('rrmTdHBUsuaGwZcjvwzhLyjScevWFrXZNbfPZDmaskkrLQYxFWdneYbaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLzEyMDFmb3IvVi5HLUh1Yi9tYWluL1YuR2h1Yg==')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('zlqesXcsPHaDLldFBzVDUbYvPHVYRzKYPtHuysXMwwUkJAlCbcZOSxvQXJzZW5hbCBLZXk6IG1UQWdMTEZRSmF6d1JXR2g='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('bcEZbvIxLfVlTBWgXpEaKCTslfXvdDCYtiJMjAfvnfrwysBCWQBkfZAaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FtZW50ZXNvL3JvYmxveHNjcmlwdHMvbWFpbi9LZXkubHVh'),true))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('yxGdCXndcZblWrVxsoAcVKXKodLUmIRisOTJcvaPFJFvPnBzRbljdNUUGV0IFNpbSA5OQ=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('ApPtRidibWxbpjpDbFSZkSKZlCzMssjbQQnYxfVhQmbWCniGXbnjdpmaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0hHSU9EL0FxdWFGbG93WC9tYWluL0Zsb3dY')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('AAnQXtgxtUnYvFNtlhDOGFIAJlwGIEoiDfZRHaRMYOtNErJYDNUYYrDS2F0'),
+    Callback = function()
+        loadstring(game:HttpGet((cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('EoKJDjHBLMBbenuKSxgFvZUzfUcexSIImVwhyaidUqWzDoLYfcFkNchaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3LzZHOUdmcWpD')),true))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('MrqvjMrbsgrTNtwqnjoIUduSqduEuvhCWMlKTCNTaFFmCjKwbdjXebGTmluamEgTGVnZW5kcw=='),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('eWtgWQcBPSFTdFEHsPfHBCwJnynPtWhlMVkaUNRdhGeJlCBghGjjVXJaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3NjcmlwdHBhc3RlYmluL3Jhdy9tYWluLzE=')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('hjXqxiUoCvgUsiVuYKqCQpNgcJHeVzTFJHIfPtFyJWLkwfkDSWxJdqhRG9vcnM='),
+    Callback = function()
+        loadstring(game:HttpGet((cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('OUCTnpXTPQkvFckALBLNrOnNtBkmkNnvafMHfdZKIjtoJrtxTIKCrwqaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L1I4UU1iaHp2'))))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('uIrQGAjsmZSmIQZPxQBRGczvgFnjitLeKyqsPwFMqanQQjWNzvEsFbOUHJpc29uIExpZmU='),
+    Callback = function()
+        loadstring(game:HttpGet((cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('KNHNaTNsTkrXxbouYRQuwZAkoGeLUENkiQxGCKDDDFymTWVkISqshlxaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0tBN3hGY2JM')),true))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('VzWkrtVQBwnSarJRZkxWdnjjjDRaXLXDhxoslrJWjvbfXDLNezXkxPkU2xhcCBCYXR0bGVz'),
+    Callback = function()
+        loadstring(game:HttpGet((cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('PcEpJXKogpobcmBHWGYPorFJFPRHrIHLbjNxuOuYsoBCFnhltntlOnXaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2lvbmx5dXNlZ2l0aHViZm9ybWNtb2RzLzEtTGluZS1TY3JpcHRzL21haW4vU2xhcCUyMEJhdHRsZXM='))))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('MCTjslwXECZXEawknqhmHZypUjVYNdMidvPkKiBFLyHrQIcCzuPmaibUmFjZSBDbGlja2Vy'),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('SHFDXJMqpHyflMdTMZdFQXLeOcuczxzNbaqjRlsEoaZFuyjgfSIQFbNaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0hlY0F5aWQ5')))()
+    end,
+ })
+
+ local Button = Scripts:CreateButton({
+    Name = cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('dSUdoLpVIrnZsdWGNTBNyfTVVelXZMMeAoKYdsKwACixnZUpnMaQRyOVHJvbGwgU2NyaXB0'),
+    Callback = function()
+        loadstring(game:HttpGet(cgYROWlaDVphXEtRgqGezUnUrCEHjiqpRcruObfVQfGyBCC('JAvKrqGqqISbhdDZSRqKETJmsFnBWZZwYTKWXYvYvZArzskTbzncfykaHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3pxeURTVVdY')))()
     end,
  })    
